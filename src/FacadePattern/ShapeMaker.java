@@ -1,6 +1,7 @@
 package facadePattern;
 
-/**@author Chitra
+/** class that calls the different shapes to draw
+ * @author Chitra
  * @version 2024.04
  * Class to implement ShapeMaker for each shape
  */

@@ -4,6 +4,11 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
+/** test class to perform FacadePattern validation
+ * @author Chitra
+ * @version 2024.04
+ * Facade pattern Demo main class
+ */
 
 class ShapeMaker_Test {
 

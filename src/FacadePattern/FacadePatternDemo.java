@@ -1,6 +1,7 @@
 package facadePattern;
 
-/**@author Chitra
+/** main class to perform FacadePattern actions
+ * @author Chitra
  * @version 2024.04
  * Facade pattern Demo main class
  */
