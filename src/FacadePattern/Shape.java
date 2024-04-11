@@ -1,9 +1,10 @@
-package FacadePattern;
+package facadePattern;
 
-/**interface class*?
+/**interface class for shapes
  * @author Chitra Periya
+ * @version 2024.04
  */
 public interface Shape {
 
-	void draw();
+	int draw(int i);
 }

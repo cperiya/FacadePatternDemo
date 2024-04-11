@@ -1,5 +1,9 @@
-package FacadePattern;
+package facadePattern;
 
+/**@author Chitra
+ * @version 2024.04
+ * Class to implement ShapeMaker for each shape
+ */
 public class ShapeMaker {
     private Shape circle;
     private Shape rectangle;
@@ -11,19 +15,32 @@ public class ShapeMaker {
         square = new Square();
     }
     
-    public void drawCircle()
+    /***
+     * draw a circle
+     * @param i input to draw circle
+     * @return area of circle
+     */
+    public int drawCircle(int i)
     {
-        circle.draw();
+        return circle.draw(i);
     }
     
-    public void drawRectangle()
+    /**draw a rectangle
+     * @param i input to draw rectangle
+     * @return area of rectangle
+     */
+    public int drawRectangle(int i)
     {
-        rectangle.draw();
+    	return rectangle.draw(i);
     }
     
-    public void drawSquare()
+    /**draw a square
+     * @param i input to draw square
+     * @return area of the square
+     */
+    public int drawSquare(int i)
     {
-        square.draw();
+    	return square.draw(i);
     }
 
 }

@@ -1,13 +1,17 @@
-package FacadePattern;
+package facadePattern;
 
+/**@author Chitra
+ * @version 2024.04
+ * Facade pattern Demo main class
+ */
 public class FacadePatternDemo {
 
 	public static void main(String[] args) {
-		
+		int i = 1;
 		ShapeMaker shapeMaker = new ShapeMaker();
-        shapeMaker.drawCircle();
-        shapeMaker.drawRectangle();
-        shapeMaker.drawSquare();
+        shapeMaker.drawCircle(i);
+        shapeMaker.drawRectangle(i);
+        shapeMaker.drawSquare(i);
 	}
 
 }
